@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- BOOTSTRAP CSS -->    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- GOOGLE Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- FONTAWESOME -->
+    <script src="./src/fontawesome/js/all.min.js"></script>
+</head>
+<body class="container-fluid">
+    <header class="row">        
+        <div class="col-12 d-flex">
+            <div class="col d-flex h-100 pb-3">
+                <a href="#" class="my-auto me-5 active">                    
+                    Artigos
+                </a>
+                <a href="#" class="my-auto me-5">                    
+                    Github
+                </a>
+                <a href="#" class="my-auto me-5">                    
+                    Aplicativos
+                </a>
+                <a href="#" class="my-auto me-5">                    
+                    Sobre
+                </a>
+            </div>
+            <a href="/" id="logo">
+                <h1 class="text-end">
+                    Salarini-e
+                    <span>Page</span>
+                </h1>  
+            </a>              
+        </div>    
+    </header>
+    <main class="row">
+        <div class="col-8">
+            <div class="row">
+                <div class="col-12 px-4 pt-4">
+                    <h1 class="title">
+                        Artigos mais recentes
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 pt-3">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row px-4">
+                                <div class="col-12 title-artigo px-4 py-2">
+                                    <a href="#">
+                                        <h2 class="my-0 py-0">
+                                            Como calcular a área de uma função com Python?
+                                        </h2>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-8 px-5 py-4">
+                                    <a href="#" class="body-artigo">
+                                        <p class="text-justify">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Donec euismod, nisi vel consectetur interdum, nisl nisi
+                                            consectetur nisi, eget consectetur nisi nisi vel nisi.
+                                            Donec euismod, nisi vel consectetur interdum, nisl nisi
+                                            consectetur nisi, eget consectetur nisi nisi vel nisi.
+                                            Donec euismod, nisi vel consectetur interdum, nisl nisi
+                                            consectetur nisi, eget consectetur nisi nisi vel nisi.
+                                            Donec euismod, nisi vel consectetur interdum, nisl nisi
+                                            consectetur nisi, eget consectetur nisi nisi vel nisi.
+                                            Donec euismod, nisi vel consectetur interdum, nisl nisi
+                                            consectetur nisi, eget consectetur nisi nisi vel nisi.
+                                            Donec euismod, nisi vel consectetur interdum, nisl nisi
+                                            consectetur nisi, eget consectetur nisi nisi vel nisi.
+                                            Donec euism
+                                        </p>
+                                        <span class="text-light py-2 mx-auto px-3" style="background-color: black;">LER ARTIGO</span>
+                                    </a>
+                                </div>
+                                <div class="col-4 pe-5 pt-4 pb-5">
+                                    <div class="h-100 w-100 bg-dark d-flex">
+                                        <img src="./src/images/f.webp" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col tags px-5">
+                                    <span>Tags:</span>
+                                    <a href="#">
+                                        Matemática
+                                    </a>,
+                                   <a href="#">
+                                    Ciência de Dados
+                                   </a>,
+                                   <a href="#">
+                                    Python
+                                   </a>e
+                                   <a href="#">
+                                    Numpy
+                                   </a>.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 pe-4 sidebar pt-5 d-flex">
+            <div class="mx-auto h-100 pt-5">
+                <h2 class="mt-2">
+                    Mais vistos
+                </h2>
+                <div>
+                    <ul>
+                        <li>teste</li>
+                        <li>teste 2</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+        <style>
+            .text-justify {
+                text-align: justify;
+            }
+            main .title{
+                font-family: 'Press Start 2P', cursive;
+            }
+            main .title-artigo{
+                background-color: black;
+                color: white;
+            }
+            main .title-artigo a{
+                text-decoration: none;
+                color: white;
+            }
+            main .title-artigo h2{
+                font-family: 'Press Start 2P', cursive;
+                font-size: 12pt;                
+            }
+            main .body-artigo{
+                text-decoration: none;
+                color: black;
+            }
+            main .body-artigo:hover{
+                text-decoration: none;
+            }
+            main .tags {
+                font-size: 10pt;    
+            }
+            main .tags span{
+                font-family: 'Press Start 2P', cursive;
+                font-size: 8pt;                
+                text-decoration: none;
+                color: black;
+            }
+            main .tags a{
+                font-size: 10pt;                
+                font-weight: 600;
+                font-style: italic;
+                text-decoration: none;
+                color: black;
+
+            }
+            main .sidebar h2{
+                font-family: 'Press Start 2P', cursive;
+                font-size: 15pt;                
+            }
+            header h1{                
+                padding: 25px 0;
+                font-family: 'Press Start 2P', cursive;
+                font-size: 20px;
+                color: rgb(0, 0, 0);                
+            }
+            h1 span{
+                background-color: rgb(0, 0, 0);
+                color: rgb(255, 255, 255);
+                padding: 15px;
+            }
+            header a{
+                text-decoration: none;
+                color: black;
+                font-family: 'Press Start 2P', cursive;
+                font-size: 11px;
+                padding: 10px;
+            }
+            header a:hover{
+                background-color: rgb(0, 0, 0);
+                color: white;
+                
+            }
+            #logo:hover{
+                background-color: white;
+                color: rgb(0, 0, 0);
+            }
+            .active{
+                background-color: rgb(0, 0, 0);
+                color: white;
+            }
+        </style>
+    <!-- BOOTSTRAP JS -->    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
